@@ -14,8 +14,10 @@ public class Exercise01 {
         int C = input.nextInt();
 
         int soma = A + B;
-
-        String resultado = (soma < C) ? "A soma entre A e B é menor que C." : "A soma entre A e B é maior que C.";
+        System.out.println();
+        System.out.println("A soma de A e B é: " + soma);
+        System.out.println();
+        String resultado = (soma < C) ? "A soma entre A e B é menor que C." : (soma > C) ? "A soma entre A e B é maior que C." : "A soma entre A e B é igual a C.";
 
         System.out.println(resultado);
 
