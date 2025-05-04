@@ -11,8 +11,8 @@ public class Exercise12 {
 
         System.out.println("Escolha a forma de pagamento: ");
         System.out.println("1 - À Vista em Dinheiro ou Pix (15% de desconto)");
-        System.out.println("2 - À Vista em Dinheiro ou Pix (10% de desconto)");
-        System.out.println("3 - Parcelado no cartão em 2x no Cartão (sem juros");
+        System.out.println("2 - À Vista no cartão (10% de desconto)");
+        System.out.println("3 - Parcelado no cartão em 2x (sem juros");
         System.out.println("4 - Parcelado em 3x ou mais no Cartão (10% de juros)");
 
         int escolha = input.nextInt();
